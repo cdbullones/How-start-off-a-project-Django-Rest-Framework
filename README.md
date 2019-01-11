@@ -37,3 +37,15 @@
 
 ### **Comando para ejecutar el proyecto django** 
 `(env)$ python manage.py runserver`
+
+##### Documentación Oficial: [https://www.django-rest-framework.org/](https://www.django-rest-framework.org/)
+
+##### Se debe agregar en el archivo *settings.py* el paquete rest framework para trabjar con APIs en Django y las app creadas para que todo funcione correctamente.
+
+``` # Application definition
+
+INSTALLED_APPS = [
+    ...
+    'rest_framework',
+    'users',
+]```
