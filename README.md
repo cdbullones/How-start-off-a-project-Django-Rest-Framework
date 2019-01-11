@@ -42,10 +42,9 @@
 
 ##### Se debe agregar en el archivo *settings.py* el paquete rest framework para trabjar con APIs en Django y las app creadas para que todo funcione correctamente.
 
-``` # Application definition
-
+```
 INSTALLED_APPS = [
     ...
     'rest_framework',
     'users',
-]```
+]
